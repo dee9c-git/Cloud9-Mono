@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloud9-Mono specimen</title>
+<link rel="stylesheet" href="font.css">
+<style>
+  body { margin: 0; padding: 48px 24px; font: 16px/1.6 system-ui, sans-serif; color: #1f1d27; background: #fbf8f2; }
+  main { max-width: 860px; margin: 0 auto; }
+  .f { font-family: "Cloud9-Mono", serif; }
+  h1 { font-size: 72px; line-height: 1.05; margin: 0 0 24px; font-weight: normal; }
+  .chars { font-size: 40px; word-break: break-all; }
+  pre { background: #fff; border: 1px solid #e1d8c8; border-radius: 10px; padding: 16px; overflow: auto; font-size: 13px; }
+  .waterfall p { margin: 4px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="f">Cloud9-Mono</h1>
+  <p class="f chars">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,:;!?'"-_()[]/\+=&lt;>*#%$&amp;@‘’“”|~´`ˆˇ˜¨˚¯¸{}^</p>
+  <div class="waterfall f">
+    <p style="font-size:14px">The quick brown fox jumps over the lazy dog</p>
+    <p style="font-size:18px">The quick brown fox jumps over the lazy dog</p>
+    <p style="font-size:24px">The quick brown fox jumps over the lazy dog</p>
+    <p style="font-size:36px">The quick brown fox jumps over the lazy dog</p>
+    <p style="font-size:48px">The quick brown fox jumps over the lazy dog</p>
+  </div>
+  <h2>Use it on your site</h2>
+  <p>Copy the fonts folder and font.css next to your pages, then:</p>
+  <pre>&lt;link rel="stylesheet" href="font.css"&gt;
+
+body { font-family: "Cloud9-Mono", sans-serif; }</pre>
+  <pre>@font-face {
+  font-family: "Cloud9-Mono";
+  src: url("fonts/Cloud9-Mono-Regular.woff2") format("woff2"),
+       url("fonts/Cloud9-Mono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}</pre>
+  <p>Made with fontsketch, https://kwy404.github.io/fontsketch/</p>
+</main>
+</body>
+</html>
